@@ -4,5 +4,278 @@
     Version: 0.0.1
 */
 /* BASE - Base Styles, variables, mixins, etc */
+/* Font Colors */
+/* Background Colors */
+/* Showcase Area */
+/* Mixins */
+/* line 1, ../sass/base/_normalize.scss */
+h1, h2, h3, h4, h5 {
+  margin-top: 0;
+}
+
+/* line 5, ../sass/base/_normalize.scss */
+.page-header {
+  margin-top: 30px;
+}
+
+/* line 9, ../sass/base/_normalize.scss */
+.no-pad-top {
+  padding-top: 0;
+}
+
+/* line 1, ../sass/base/_base.scss */
+body {
+  font-family: "Segoe UI", "Segoe WP", "Segoe Regular", sans-serif;
+  font-size: 15px;
+  line-height: 1.7em;
+  color: #666666;
+}
+
+/* line 7, ../sass/base/_base.scss */
+a {
+  color: #00aff0;
+}
+
+/* line 11, ../sass/base/_base.scss */
+ul, li {
+  list-style: none;
+}
+
+/* line 15, ../sass/base/_base.scss */
+input, textarea, button {
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
+}
+
+/* line 19, ../sass/base/_base.scss */
+img.device {
+  width: 100%;
+}
+
 /* MODULES - Individual site components*/
+/* Lists */
+/* line 3, ../sass/modules/_typography.scss */
+.list, .list-feature {
+  margin-bottom: 30px;
+}
+
+/* line 7, ../sass/modules/_typography.scss */
+.list-feature {
+  margin: 0;
+  padding: 0;
+  width: 80%;
+}
+/* line 13, ../sass/modules/_typography.scss */
+.list-feature li {
+  line-height: 2.2em;
+  border-bottom: 1px solid #cccccc;
+}
+/* line 18, ../sass/modules/_typography.scss */
+.list-feature li:last-child {
+  border: 0;
+}
+
+/* Icons */
+/* line 25, ../sass/modules/_typography.scss */
+.fa-2 {
+  font-size: 18px;
+}
+
+/* line 28, ../sass/modules/_typography.scss */
+.fa-3 {
+  font-size: 24px;
+}
+
+/* line 31, ../sass/modules/_typography.scss */
+.fa-4 {
+  font-size: 27px;
+}
+
+/* line 34, ../sass/modules/_typography.scss */
+.fa-5 {
+  font-size: 35px;
+}
+
+/* line 37, ../sass/modules/_typography.scss */
+.fa-6 {
+  font-size: 40px;
+}
+
+/* line 41, ../sass/modules/_typography.scss */
+.fa-primary {
+  color: #00aff0;
+  border: 1px solid #00aff0;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  padding: 13px 15px;
+  width: 70px;
+  margin-bottom: 10px;
+}
+
+/* Headings */
+/* line 52, ../sass/modules/_typography.scss */
+.heading-primary {
+  color: #00aff0;
+}
+
+/* line 57, ../sass/modules/_typography.scss */
+.heading-secondary {
+  color: #7fba00;
+}
+
+/* line 62, ../sass/modules/_typography.scss */
+.heading-light {
+  color: #e4eef2;
+}
+
+/* line 67, ../sass/modules/_typography.scss */
+.heading-dark {
+  color: #333333;
+}
+
+/* Blocks */
+/* line 3, ../sass/modules/_blocks.scss */
+.block, .block-primary, .block-secondary, .block-light, .block-dark {
+  padding: 15px;
+  margin-bottom: 15px;
+}
+/* line 7, ../sass/modules/_blocks.scss */
+.block h3, .block-primary h3, .block-secondary h3, .block-light h3, .block-dark h3 {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+/* line 13, ../sass/modules/_blocks.scss */
+.block-primary {
+  background: #00aff0;
+  color: #ffffff;
+}
+
+/* line 18, ../sass/modules/_blocks.scss */
+.block-secondary {
+  background: #7fba00;
+  color: #ffffff;
+}
+
+/* line 23, ../sass/modules/_blocks.scss */
+.block-light {
+  background: #e4eef2;
+  color: #666666;
+}
+
+/* line 28, ../sass/modules/_blocks.scss */
+.block-dark {
+  background: #333333;
+  color: #ffffff;
+}
+
+/* line 33, ../sass/modules/_blocks.scss */
+.block-center {
+  text-align: center !important;
+}
+
+/* Sections */
+/* line 2, ../sass/modules/_sections.scss */
+section {
+  padding: 30px 0;
+}
+
+/* line 5, ../sass/modules/_sections.scss */
+.section-showcase {
+  height: 400px;
+  background: url("../img/showcase.jpg") no-repeat top center;
+}
+/* line 9, ../sass/modules/_sections.scss */
+.section-showcase .showcase-content {
+  padding: 110px 15px;
+  text-align: center;
+}
+/* line 14, ../sass/modules/_sections.scss */
+.section-showcase h1 {
+  color: #00aff0;
+}
+
+/* line 19, ../sass/modules/_sections.scss */
+.section-primary {
+  background: #00aff0;
+  color: #ffffff;
+}
+
+/* line 23, ../sass/modules/_sections.scss */
+.section-secondary {
+  background: #7fba00;
+  color: #ffffff;
+}
+
+/* line 27, ../sass/modules/_sections.scss */
+.section-light {
+  background: #e4eef2;
+  color: #666666;
+}
+
+/* line 30, ../sass/modules/_sections.scss */
+.section-dark {
+  background: #333333;
+  color: #ffffff;
+}
+
+/* Searchbox */
+/* line 3, ../sass/modules/_forms.scss */
+.search {
+  width: 100%;
+}
+/* line 6, ../sass/modules/_forms.scss */
+.search h3 {
+  margin-top: 0;
+  padding-top: 0;
+}
+/* line 11, ../sass/modules/_forms.scss */
+.search input[type="search"] {
+  border: 0;
+  height: 50px;
+  width: 80%;
+  border: 2px solid #00aff0;
+  font-size: 18px;
+  padding-left: 10px;
+  padding-bottom: 5px;
+}
+/* line 21, ../sass/modules/_forms.scss */
+.search button {
+  border: 0;
+  background: none;
+  padding: 0;
+  vertical-align: top;
+  margin-left: -4px;
+}
+
 /* LAYOUTS - Page layout styles */
+/* Navbar */
+/* line 3, ../sass/layouts/_nav.scss */
+.navbar {
+  width: 90%;
+  margin: auto;
+  border-left: 1px solid #e7e7e7;
+  border-right: 1px solid #e7e7e7;
+  border-color: #e7e7e7;
+  min-height: 60px;
+  background: #fff;
+  margin-bottom: 30px;
+}
+/* line 12, ../sass/layouts/_nav.scss */
+.navbar a {
+  color: #00aff0 !important;
+  font-size: 20px;
+  letter-spacing: -0.5px;
+  padding-bottom: 24px !important;
+  padding-top: 20px !important;
+}
+
+/* line 23, ../sass/layouts/_nav.scss */
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus,
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+  background: #00aff0 !important;
+  color: #fff !important;
+}
